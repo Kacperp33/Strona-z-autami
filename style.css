@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(61,110,61,1);
+}
+
+
+#zdjecie {
+    border-radius: 20px;
+}
+
+#zdjecia {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#guzik {
+    border: solid 5px rgba(37,86,37,1);
+    border-radius: 10px;
+    background-color: rgba(57,166,57,1);
+    color: white;
+}
