@@ -8,12 +8,34 @@
 </head>
 <body>
 
-<div id="zdjecia">
-    <img src="" id="zdjecie" alt=""><br>
-    <button id="guzik" onclick="zmianazdjecia('ferrari.jpg')">Ferrari</button>
-    <button id="guzik" onclick="zmianazdjecia('mazda.jpg')">Mazda</button>
-    <button id="guzik" onclick="zmianazdjecia('porsche.jpg')">Porsche</button>
-</div>  
+
+
+    <div id="menu">
+        <ul id="ulmenu">
+            <li id="limenu"><a href="#">Home</a></li>
+            <li id="limenu">Produkty</li>
+            <li id="limenu">Kontakt</li>
+        </ul>
+    </div>
+
+    <div id="zdjecia"> 
+        <img src="" id="zdjecie" alt=""><br>
+        <button id="guzik" onclick="zmianazdjecia('ferrari.jpg')">Ferrari</button>
+        <button id="guzik" onclick="zmianazdjecia('mazda.jpg')">Mazda</button>
+        <button id="guzik" onclick="zmianazdjecia('porsche.jpg')">Porsche</button>
+    </div>  
+
+    <div id="sortowanie">
+        <label for="liczby">Podaj liczbę</label>
+        <input type="number" id="liczby">
+        <button id="dodaj" onclick="dodajliczbe()">Dodaj liczbę</button>
+        <button id="licz" onclick="licz()">Sortuj bąbelkowo</button><br>
+        <p>Posortowane liczby :</p>
+        <p id="posrtowane"></p>
+
+    </div>
+
+
 
     
 </body>
